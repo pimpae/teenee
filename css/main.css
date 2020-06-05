@@ -38,6 +38,12 @@
   font-variant:initial;
 }
 
+@font-face{
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-style: normal;
+  font-variant:initial;
+}
 
 @font-face {
   font-family: 'Linearicons';
@@ -57,8 +63,16 @@
 }
  
 .navbar-toggler-left .fa-bars{
-  color: #fff !important;
+  color: #41B6FF;
+  font-size: 30px;
 }
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: #fff !important;
+  z-index: 1030;
+}
+
 @media only screen and (max-width: 991px) { /* MOBILE */
   .mb-x{
     display: none !important;
@@ -97,8 +111,8 @@ a:hover{
   font-size: 18px;
   font-family: SukhumvitSet-Bold;
   color: #919192;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 } 
  
 .navbar .navbar-nav .nav-item.active .nav-link,.navbar .navbar-nav .nav-item .nav-link:hover{
@@ -114,10 +128,339 @@ a:hover{
 .nav-item.dropdown .dropdown-menu{
   margin-top: -2px;
 }
-.nav-item.dropdown .dropdown-menu .dropdown-item{
-  border-bottom: 2px solid #f0f0f0;
-}
+
 
 .nav-item.dropdown .dropdown-menu .dropdown-item:last-child {
   border-bottom:none;
 }
+
+.sec1 .uk-cover {
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+footer{
+  background-color: #41B6FF; 
+}
+
+footer h5{
+  color: #FFFFFF;
+  font-family: SukhumvitSet-Bold;
+  font-size: 19px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+footer address{
+  color: #FFFFFF;
+  font-family: SukhumvitSet-Text;
+  font-size: 19px;
+}
+footer ul.ft{
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+footer ul.ft li{
+  line-height: 40px;
+}
+footer ul.ft li a{
+  color: #FFFFFF;
+  font-family: SukhumvitSet-Text; 
+}
+footer ul.ft li a:hover{
+  color: #027cc9;
+  text-decoration: underline;
+}
+footer small{
+  color: #FFFFFF;
+  font-family: SukhumvitSet-Text; 
+}
+footer .sox a img{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-pa{
+  background-color: #f8f8f8;
+}
+.main-pa h2{
+  color: #000000;
+  font-family: SukhumvitSet-Bold;
+  font-size: 26px;
+  text-align: center;
+}
+.box{
+  -webkit-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.main-pa .m-box h2{
+  color: #000000;
+  font-family: SukhumvitSet-Bold;
+  font-size: 26px;
+  text-align: center;
+}
+.main-pa .m-box h3{
+  color: #363F47;
+  font-family: SukhumvitSet-Bold;
+  font-size: 20px; 
+}
+.main-pa .m-box h4{
+  color: #41B6FF;
+  font-family: SukhumvitSet-Bold;
+  font-size: 20px; 
+}
+.main-pa .m-box p{
+  color: #363F47;
+  font-family: SukhumvitSet-Bold;
+  font-size: 20px; 
+  line-height: 40px;
+}
+.main-pa .m-box a{
+  color: #41B6FF; 
+}
+.main-pa .m-box a:hover{
+  color: #41B6FF; 
+  text-decoration: underline;
+}
+.main-pa .num-tel .col{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+.main-pa .num-tel input::-webkit-outer-spin-button,
+.main-pa .num-tel input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn-chk{
+  background-color: #41B6FF;
+  color: #fff !important; 
+  font-family: SukhumvitSet-Bold; 
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+.main-pa .num-tel .col .boxx input:focus{
+  outline: none;
+}
+.btn-chk:hover{
+  background-color: #027CC9;
+  color: #fff;
+}
+
+h3.botr{
+  font-family: SukhumvitSet-Medium;
+  color: #41B6FF;
+  font-size: 18px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #41B6FF;
+  margin-bottom: 15px;
+}
+h4.botx{
+  font-family: SukhumvitSet-Medium;
+  color: #4D4F5C;
+  font-size: 18px; 
+}
+
+a.words p{
+  background-color: #E8E8E8;
+  padding: 8px 12px;
+  color: #707070;
+  font-family: SukhumvitSet-Text;
+  font-size: 14px;
+  border-radius: 6px; 
+  display: inline-block; 
+  margin-bottom: 10px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+a.words p:hover{
+  background-color: #41B6FF; 
+  color: #fff;
+}
+
+.form-check{
+  margin-top: 15px;
+  font-family: Roboto-Regular;
+}
+.form-check-input{
+  padding-right: 15px;
+}
+.btn-vote{
+  background-color: #41B6FF;
+  color: #fff !important;
+  font-size: 20px;
+  font-family: Roboto-Regular;
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+.btn-view{
+  background-color: #f8f8f8;
+  color: #4D4F5C !important;
+  font-size: 20px;
+  font-family: Roboto-Regular;
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+.btn-view:hover{
+  text-decoration: underline;
+}
+.hdx{
+  border-top: 1px solid #7accff;
+}
+
+footer .fa-bars{
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 15px;
+  margin-right: 15px;
+  font-size: 30px;
+}
+.navbar-brand span{
+  color: #41B6FF !important;
+  font-size: 20px;
+  font-family: SukhumvitSet-Bold;
+  position: absolute;
+  right: 0;
+  margin-right: 65px;
+  top: 0;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .main-pa .num-tel input{
+    -webkit-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+    color: #919192;
+    font-size: 20px;
+    font-family: SukhumvitSet-Bold;
+    text-align: center; 
+    border-radius: 4px;
+    color: #919192;
+    width: 20px;
+    text-align: center;
+    outline: none;
+    border: none !important; 
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .main-pa .num-tel {  
+    font-size: 20px;
+    font-family: SukhumvitSet-Bold;
+    text-align: center; 
+    border-radius: 4px;
+    color: #919192;
+  }
+  .btn-chk{ 
+    font-size: 15px; 
+  }
+  .main-pa .m-box h3{
+    text-align: center;
+  }
+  .main-pa .m-box h4{
+    text-align: center;
+  } 
+  footer ul.ft li a{ 
+    font-size: 14px; 
+  }
+  footer small{ 
+    font-size: 14px;
+  }
+  footer .sox a img{
+    max-width: 33px;
+  }
+  footer{ 
+    padding-top: 30px;
+  }
+  .menu0x{
+    display: none;
+  }
+  .sec1 .uk-cover { 
+    background-image: url(../images/banner_480x250.png);
+    height: 200px;
+  }
+  .bbg{ 
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    margin-left: -15px;
+  }
+  .bbg img{ 
+    display: block;
+    margin: auto; 
+    left: 0;
+    top: 0; 
+    margin-top: -17px;
+  }
+  .dropdown-menu { 
+    border: 1px solid rgba(0, 0, 0, 0); 
+  }
+  .nav-item.dropdown .dropdown-menu .dropdown-item{
+    border-bottom: 2px solid rgba(0,0,0,0);
+    padding-left: 35px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) { /* PC */
+  .main-pa .num-tel input{
+    -webkit-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
+    color: #919192;
+    font-size: 42px;
+    font-family: SukhumvitSet-Bold;
+    text-align: center; 
+    border-radius: 8px;
+    color: #919192;
+    width: 40px;
+    text-align: center;
+    outline: none;
+    border: none !important; 
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .main-pa .num-tel {  
+    font-size: 42px;
+    font-family: SukhumvitSet-Bold;
+    text-align: center; 
+    border-radius: 8px;
+    color: #919192;
+  }
+  .btn-chk{ 
+    font-size: 23px; 
+  }
+  footer ul.ft li a{ 
+    font-size: 20px; 
+  }
+  footer small{ 
+    font-size: 19px;
+  }
+  footer{ 
+    padding-top: 60px;
+  }
+  .sec1 .uk-cover { 
+    background-image: url(../images/banner_2500x500.png);
+    height: 500px;
+  }
+  .nav-item.dropdown .dropdown-menu .dropdown-item{
+    border-bottom: 2px solid #f0f0f0;
+  }
+}
+
