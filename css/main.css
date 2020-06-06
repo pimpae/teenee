@@ -481,3 +481,23 @@ footer .fa-bars{
   border:2px solid red;
 }
 
+
+
+.main-pa .num-tel input:nth-child(3) {
+  margin-right: 25px;
+}
+.main-pa .num-tel input:nth-child(6) {
+  margin-right: 25px;
+}
+.main-pa .num-tel .sp1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 198px;
+}
+.main-pa .num-tel .sp2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 384px;
+}
