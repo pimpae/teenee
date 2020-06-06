@@ -112,11 +112,11 @@
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
-                                 <div>-</div>
+                                
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
-                                 <div>-</div>
+                            
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
                                  <input type="text" name="tel-1" class="tel-in"   placeholder="0" maxlength="1">
@@ -379,7 +379,14 @@
       });
 
    </script>
-
+   <script type="text/javascript">
+      $(".tel-in").on("keypress keyup blur",function (event) {    
+         $(this).val($(this).val().replace(/[^\d].+/, ""));
+         if ((event.which < 48 || event.which > 57)) {
+            event.preventDefault();
+         }
+      });
+   </script>
 </body>
  
 </html>
