@@ -424,13 +424,17 @@ footer .fa-bars{
     font-family: SukhumvitSet-Bold;
     text-align: center; 
     border-radius: 8px;
-    color: #757575;
+    /*color: #757575 !important;*/
     width: 40px;
     text-align: center;
     outline: none;
     border: 2px solid #fff; 
     margin-left: 8px;
     margin-right: 8px; 
+
+    -webkit-text-fill-color: rgba(117, 117, 117, 1); 
+    -webkit-opacity: 117; 
+    color: rgba(117, 117, 117, 1); 
   }
   .main-pa .num-tel input[type=text]:focus {
     border: 2px solid #01a1ed;
