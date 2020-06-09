@@ -348,13 +348,17 @@ footer .fa-bars{
     font-family: SukhumvitSet-Bold;
     text-align: center; 
     border-radius: 4px;
-    color: #757575;
+    /*color: #757575;*/
     width: 20px;
     text-align: center;
     outline: none;
     border: none !important; 
     margin-left: 3px;
     margin-right: 3px;
+
+    -webkit-text-fill-color: rgba(117, 117, 117, 1); 
+    -webkit-opacity: 117; 
+    color: rgba(117, 117, 117, 1); 
   }
   .main-pa .num-tel {  
     font-size: 20px;
