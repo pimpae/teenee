@@ -408,22 +408,23 @@ footer .fa-bars{
 }
 
 @media only screen and (min-width: 992px) { /* PC */
-  .main-pa .num-tel input{
-      font-size: 2.6rem;
-      border-radius: 10px;
-      height: 60px;
-      border: 2px solid #979797;
-      display: inline-block;
-      width: 32px;
-      margin-right: 2px;
-      padding: 6px 0 5px;
-      text-align: center;
-      color: #333 !important;
+  .main-pa .num-tel .form-control{ 
+    font-size: 42px;
+    font-family: SukhumvitSet-Bold;
+    text-align: center; 
+    border-radius: 8px;
+    color: #757575 !important;
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0.15); 
+    margin-left: 8px;
+    margin-right: 8px;     
+    padding: 0px;
+    display: inline-block;
   }
-  .main-pa .num-tel input[type=text]:focus {
-    border: 2px solid #01a1ed;
-    background-color: rgba(1,161,237,.1);
-  }
+ 
   .main-pa .num-tel {  
     font-size: 42px;
     font-family: SukhumvitSet-Bold;
@@ -453,23 +454,7 @@ footer .fa-bars{
 }
 
 
-.main-pa .num-tel input::-webkit-input-placeholder { /* Edge */
-  color: #919192;
-}
-
-.main-pa .num-tel input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #919192;
-}
-
-.main-pa .num-tel input::placeholder {
-  color: #919192;
-}
-
-.main-pa .num-tel input:focus {
-  border:2px solid red;
-}
-
-
+ 
 
 .main-pa .num-tel input:nth-child(3) {
   margin-right: 25px;
