@@ -408,18 +408,17 @@ footer .fa-bars{
 }
 
 @media only screen and (min-width: 992px) { /* PC */
-  .main-pa .num-tel input{ 
-    font-size: 42px;
-    font-family: SukhumvitSet-Bold;
-    text-align: center; 
-    border-radius: 8px;
-    color: #757575 !important;
-    width: 40px;
-    text-align: center;
-    outline: none;
-    border: 2px solid rgba(0,0,0,0.15); 
-    margin-left: 8px;
-    margin-right: 8px;     
+  .main-pa .num-tel input{
+      font-size: 2.6rem;
+      border-radius: 10px;
+      height: 60px;
+      border: 2px solid #979797;
+      display: inline-block;
+      width: 32px;
+      margin-right: 2px;
+      padding: 6px 0 5px;
+      text-align: center;
+      color: #333 !important;
   }
   .main-pa .num-tel input[type=text]:focus {
     border: 2px solid #01a1ed;
@@ -489,4 +488,20 @@ footer .fa-bars{
   top: 0;
   left: 0;
   margin-left: 384px;
+}
+
+
+input[type=text], input[type=password], input[type=url], input[type=tel], input[type=search], input[type=number], input[type=datetime], input[type=email] {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c2c2c2;
+    border-radius: 1px;
+    font-family: "Helvetica",Arial,Thonburi,Tahoma,sans-serif;
+    font-size: 14px;
+    height: 32px;
+    line-height: 1.42857143;
+    padding: 0 9px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
 }
