@@ -341,9 +341,9 @@ footer .fa-bars{
 
 @media only screen and (max-width: 991px) { /* MOBILE */
   .main-pa .num-tel input{
-    -webkit-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15);
-    box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15); 
+    -webkit-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15) !important;
+    -moz-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15) !important;
+    box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.15) !important; 
     font-size: 20px;
     font-family: SukhumvitSet-Bold;
     text-align: center; 
