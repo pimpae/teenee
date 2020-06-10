@@ -232,12 +232,12 @@ footer .sox a img{
   padding-right: 4px;
 }
 
-
+/*
 .main-pa .num-tel input::-webkit-outer-spin-button,
 .main-pa .num-tel input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
+}*/
 .btn-chk{
   background-color: #41B6FF;
   color: #fff !important; 
@@ -485,10 +485,7 @@ footer .fa-bars{
   color: #919192;
 }
 
-.main-pa .num-tel input:focus {
-  border:2px solid red;
-}
-
+ 
 
 
 .main-pa .num-tel input:nth-child(3) {
